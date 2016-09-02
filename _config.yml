@@ -1,14 +1,26 @@
-layout_spectrum: 0
-typography_spectrum: 0.08960573
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.7266159
-  lightness: 0.9443148
   brandStrength: 0.7885305
+  rhythmicContrast: 0.9349393
   brandColors:
     - '#00A3C3'
     - '#FEFEFE'
     - '#006A7F'
     - '#B2DBE8'
     - '#57B9D1'
-  rhythmicContrast: 0.9349393
+  lightness: 0.9443148
+typography_spectrum: 0.1039427
+layout_spectrum: 0
 name: pulloutplus
